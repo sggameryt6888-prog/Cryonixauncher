@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Primary Colors -->
+    <color name="lunar_dark_bg">#0f1419</color>
+    <color name="lunar_dark_header">#1a1f28</color>
+    <color name="lunar_dark_card">#141820</color>
+
+    <!-- Accent Colors -->
+    <color name="cyan_primary">#00d9ff</color>
+    <color name="green_accent">#7cff96</color>
+    <color name="green_accent_bright">#00ff88</color>
+    <color name="blue_light">#0099ff</color>
+
+    <!-- Text Colors -->
+    <color name="text_primary_white">#ffffff</color>
+    <color name="text_secondary_blue">#7a94c0</color>
+    <color name="text_tertiary_light">#e0e0ff</color>
+    <color name="text_muted">#7a8ebd</color>
+
+    <!-- UI Elements -->
+    <color name="divider_color">#2a3142</color>
+    <color name="border_dark">#2a3545</color>
+    <color name="button_dark">#1a1f28</color>
+    <color name="card_border">#2a3545</color>
+    <color name="badge_bg">#0a3a52</color>
+</resources>
+

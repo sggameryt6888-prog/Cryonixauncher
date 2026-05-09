@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Premium Glowing Header Background -->
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@color/background_dark" />
+    <item android:drawable="@drawable/gradient_blue_cyan" android:top="-3dp" />
+</layer-list>

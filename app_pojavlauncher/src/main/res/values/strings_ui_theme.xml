@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- UI Section Headers -->
+    <string name="section_controls">CONTROLS</string>
+    <string name="section_utilities">UTILITIES</string>
+    <string name="section_resources">RESOURCES</string>
+    <string name="section_quick_access">QUICK ACCESS</string>
+
+    <!-- Version & Profile -->
+    <string name="version_label">MINECRAFT VERSION</string>
+    <string name="profile_label">GAME PROFILE</string>
+
+    <!-- Welcome Messages -->
+    <string name="welcome_tagline">Select Profile &amp; Launch Minecraft</string>
+    <string name="ready_to_launch">Get Ready to Play</string>
+
+</resources>
+

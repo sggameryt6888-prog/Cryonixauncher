@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Cryonix Crystal Colors -->
+    <color name="cryonix_cyan">#00d9ff</color>
+    <color name="cryonix_cyan_dark">#0099cc</color>
+    <color name="cryonix_cyan_light">#33e5ff</color>
+    
+    <!-- Primary Colors -->
+    <color name="primary_blue">#0099cc</color>
+    <color name="primary_blue_dark">#006699</color>
+    <color name="primary_blue_light">#00d9ff</color>
+
+    <!-- Background Colors - Premium Dark Theme -->
+    <color name="background_app">#0a0e15</color>
+    <color name="background_dark">#0f1319</color>
+    <color name="background_card">#1a1f28</color>
+    <color name="background_status_bar">#0a0e15</color>
+    <color name="background_bottom_bar">#0f1319</color>
+
+    <!-- Grey Colors -->
+    <color name="grey_dark">#1a1a1a</color>
+    <color name="grey_medium">#303030</color>
+    <color name="grey_light">#616161</color>
+    <color name="grey_lighter">#9E9E9E</color>
+
+    <!-- Text Colors -->
+    <color name="primary_text">#FFFFFF</color>
+    <color name="secondary_text">#B0B0B0</color>
+    <color name="tertiary_text">#808080</color>
+
+    <!-- UI Elements -->
+    <color name="divider">#2A2A2A</color>
+    <color name="background_overlay">#1A1A1A</color>
+    <color name="icon_outline_color">#FFFFFF</color>
+    <color name="minebutton_color">#00d9ff</color>
+
+    <!-- Legacy colors for compatibility -->
+    <color name="control_button_color">#00d9ff</color>
+    <color name="control_button_pressed_color">#0099cc</color>
+</resources>

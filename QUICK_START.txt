@@ -1,0 +1,144 @@
+╔════════════════════════════════════════════════════════════════════════════╗
+║                    CRYONIX LAUNCHER - QUICK REFERENCE                      ║
+╚════════════════════════════════════════════════════════════════════════════╝
+
+📦 WHAT WAS FIXED
+═══════════════════════════════════════════════════════════════════════════
+
+✅ Renamed from Mojo Launcher to Cryonix Launcher
+   - Package: git.artdeell.mojo → git.artdeell.cryonix
+   - App display name updated everywhere
+
+✅ Fixed CRASH: java.lang.UnsatisfiedLinkError: "libexithook.so" not found
+   - Enabled NDK compilation on Windows
+   - Now builds all native libraries needed by the app
+
+═══════════════════════════════════════════════════════════════════════════
+
+
+🚀 HOW TO BUILD
+═══════════════════════════════════════════════════════════════════════════
+
+EASIEST METHOD (Recommended):
+  1. Open Command Prompt
+  2. Type: BUILD_CRYONIX_APK.bat
+  3. Wait 5-15 minutes
+  4. Done! APK ready to install
+
+MANUAL METHOD:
+  1. Open Command Prompt
+  2. cd "c:\Users\Gopal Sharma\Downloads\MojoLauncher-3_openjdk (2)\CryonixLauncher-3_openjdk"
+  3. gradlew.bat clean
+  4. gradlew.bat assembleFullRelease
+  5. Wait for completion
+
+═══════════════════════════════════════════════════════════════════════════
+
+
+✅ REQUIREMENTS BEFORE BUILDING
+═══════════════════════════════════════════════════════════════════════════
+
+Required:
+  ✓ Java JDK 11+ (check: java -version)
+  ✓ Android SDK (should be at: C:\Users\Gopal Sharma\AppData\Local\Android\Sdk)
+  ✓ Android NDK (install via Android Studio)
+
+NOT INSTALLED?
+  → Download Android Studio from: https://developer.android.com/studio
+  → Install it and use it to install SDK and NDK
+
+═══════════════════════════════════════════════════════════════════════════
+
+
+📂 FILES CREATED FOR YOU
+═══════════════════════════════════════════════════════════════════════════
+
+BUILD_CRYONIX_APK.bat
+  → One-click build script (easiest!)
+
+BUILD_INSTRUCTIONS.md
+  → Detailed guide with troubleshooting
+
+CRYONIX_FIX_SUMMARY.md
+  → Technical summary of all fixes
+
+CHANGES_VERIFICATION.txt
+  → Complete list of all code changes
+
+═══════════════════════════════════════════════════════════════════════════
+
+
+📍 OUTPUT LOCATION
+═══════════════════════════════════════════════════════════════════════════
+
+After successful build, APK will be at:
+  app_pojavlauncher\build\outputs\apk\fullRelease\app_pojavlauncher-full-release.apk
+
+═══════════════════════════════════════════════════════════════════════════
+
+
+⚡ IF BUILD FAILS
+═══════════════════════════════════════════════════════════════════════════
+
+Error: NDK not found
+  → Open Android Studio
+  → Settings → SDK Tools → Check "NDK (Side by side)"
+  → Click Apply
+
+Error: Java not found
+  → Install JDK 11+: https://www.oracle.com/java/technologies/javase-downloads.html
+
+Error: Out of memory
+  → Edit gradle.properties
+  → Change: org.gradle.jvmargs=-Xmx6144M
+
+For more help, see: BUILD_INSTRUCTIONS.md
+
+═══════════════════════════════════════════════════════════════════════════
+
+
+🎮 AFTER BUILD - INSTALLATION
+═══════════════════════════════════════════════════════════════════════════
+
+Method 1 - Using ADB:
+  adb install app_pojavlauncher-full-release.apk
+
+Method 2 - Manual:
+  1. Copy APK to Android device
+  2. Open file manager
+  3. Tap APK to install
+
+═══════════════════════════════════════════════════════════════════════════
+
+
+✨ WHAT YOU'LL GET
+═══════════════════════════════════════════════════════════════════════════
+
+After installation, you'll have:
+  ✓ Cryonix Launcher (no more "Mojo Launcher")
+  ✓ No more crash on startup
+  ✓ All libraries properly included
+  ✓ Full Minecraft Java Edition launcher functionality
+  ✓ Correct package ID: git.artdeell.cryonix
+
+═══════════════════════════════════════════════════════════════════════════
+
+
+💡 CHANGES MADE (Technical)
+═══════════════════════════════════════════════════════════════════════════
+
+Modified files:
+  1. app_pojavlauncher/build.gradle
+     - Namespace & applicationId changed
+     - All resources paths updated
+     - **CRITICAL: Enabled NDK build on Windows
+
+  2. AndroidManifest.xml
+     - Package queries updated to cryonix
+
+  3. values/strings.xml
+     - App names and labels updated
+
+═══════════════════════════════════════════════════════════════════════════
+
+Ready to build! Just run: BUILD_CRYONIX_APK.bat
